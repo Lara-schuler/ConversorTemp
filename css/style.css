@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF8C00 ;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: #4682B4;*/
+    background-color: #778899;
+    padding: 5vh;
+}
+#imagem1{
+    width: 5vw;
+}
+#imagem2{
+    width: 5vw;
+}
+#result{
+    border-color: black;
+    width: 100vw;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;   
+}
+#temp_entrada{
+    width: 18vw;
+    text-align: right;
+    padding: 5px;
+    margin: 3px;
+}
+#escala{
+    width: 5vw;
+    height: 5vh;
+    padding: 5px;
+    
+}
+#opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    padding: 5vh;
+}
+.saida{
+    padding: 20px;
+    width: 25vw;
+    height: 2vh;
+    margin: 0 auto;
+}
+span{
+    background-color: darkblue;
+    color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:colum;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:row;
+    padding: 2vh 5vh 5vh 5vh;
+}
+#calcular,#limpar{
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    background-color:lightslategray;
+    border-radius: 6px;
+}
+select{
+    cursor: pointer;
+}
+#calculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
